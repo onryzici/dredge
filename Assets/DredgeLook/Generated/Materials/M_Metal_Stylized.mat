@@ -31,7 +31,7 @@ Material:
     m_Ints: []
     m_Floats:
     - _AlphaClip: 0
-    - _AmbientStrength: 0.234
+    - _AmbientStrength: 0.6
     - _BandSoftness: 0.5
     - _Bands: 5
     - _Cull: 2
@@ -39,7 +39,7 @@ Material:
     - _LightWrap: 0.198
     - _RimPower: 4
     - _RimStrength: 0.1
-    - _ShadowStrength: 0.85
+    - _ShadowStrength: 0.9
     - _SpecPower: 48
     - _SpecStrength: 0.2
     - _SpecularOn: 0

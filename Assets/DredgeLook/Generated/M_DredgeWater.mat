@@ -37,17 +37,17 @@ Material:
     - _PlanarDistortion: 0.06
     - _PlanarStrength: 1
     - _ReflectionBase: 0.15
-    - _ReflectionStrength: 0.4
-    - _SpecularIntensity: 1
+    - _ReflectionStrength: 0.35
+    - _SpecularIntensity: 0.7
     - _SpecularPower: 106
     - _SpecularSoftness: 0.06
     - _WaveAmplitude: 0.25
     - _WaveFadeDistance: 81
     - _WaveSpeed: 0.5
     m_Colors:
-    - _DeepColor: {r: 0.08235294, g: 0.3529412, b: 0.38431373, a: 1}
+    - _DeepColor: {r: 0.05882353, g: 0.24313726, b: 0.27450982, a: 1}
     - _FoamColor: {r: 0.91764706, g: 0.9529412, b: 0.9490196, a: 1}
-    - _ShallowColor: {r: 0.24705882, g: 0.6117647, b: 0.59607846, a: 1}
+    - _ShallowColor: {r: 0.18039216, g: 0.4862745, b: 0.47843137, a: 1}
     - _SpecularColor: {r: 1, g: 0.9372549, b: 0.8392157, a: 1}
     - _WaveA: {r: 1, g: 0.15, b: 0.22, a: 22}
     - _WaveB: {r: 0.7, g: 0.7, b: 0.16, a: 13}

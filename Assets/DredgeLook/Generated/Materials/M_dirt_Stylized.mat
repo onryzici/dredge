@@ -31,7 +31,7 @@ Material:
     m_Ints: []
     m_Floats:
     - _AlphaClip: 0
-    - _AmbientStrength: 0.234
+    - _AmbientStrength: 0.6
     - _BandSoftness: 0.5
     - _Bands: 5
     - _Cull: 2
@@ -39,13 +39,13 @@ Material:
     - _LightWrap: 0.198
     - _RimPower: 4
     - _RimStrength: 0.1
-    - _ShadowStrength: 0.85
+    - _ShadowStrength: 0.9
     - _SpecPower: 48
     - _SpecStrength: 0.2
     - _SpecularOn: 0
     - _UseAtmosphereTint: 1
     m_Colors:
-    - _BaseColor: {r: 0.62, g: 0.6, b: 0.6, a: 1}
+    - _BaseColor: {r: 0.46, g: 0.46, b: 0.48, a: 1}
     - _RimColor: {r: 1, g: 1, b: 1, a: 1}
     - _ShadowColor: {r: 0.24299997, g: 0.35699996, b: 0.47799987, a: 1}
     - _SpecColor2: {r: 1, g: 1, b: 1, a: 1}

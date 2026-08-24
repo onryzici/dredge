@@ -15,13 +15,13 @@ MonoBehaviour:
   atmosphere:
     sunElevation: 24
     sunAzimuth: -70
-    sunColor: {r: 1, g: 0.9019608, b: 0.76862746, a: 1}
-    sunIntensity: 1.4
+    sunColor: {r: 1, g: 0.8862745, b: 0.7529412, a: 1}
+    sunIntensity: 0.95
     shadowStrength: 0.85
     shadowTint: {r: 0.24313726, g: 0.2901961, b: 0.43137255, a: 1}
-    skyZenith: {r: 0.18039216, g: 0.49019608, b: 0.7764706, a: 1}
-    skyHorizon: {r: 0.65882355, g: 0.79607844, b: 0.9019608, a: 1}
-    skyGround: {r: 0.65882355, g: 0.79607844, b: 0.9019608, a: 1}
+    skyZenith: {r: 0.18431373, g: 0.37254903, b: 0.54901963, a: 1}
+    skyHorizon: {r: 0.62352943, g: 0.7137255, b: 0.78431374, a: 1}
+    skyGround: {r: 0.62352943, g: 0.7137255, b: 0.78431374, a: 1}
     horizonPower: 3.2
     horizonGlow: 0.12
     sunDiscColor: {r: 1, g: 0.94509804, b: 0.8392157, a: 1}
@@ -31,32 +31,32 @@ MonoBehaviour:
     sunGlowFalloff: 70
     skyExposure: 0.75
     starStrength: 0
-    ambientSky: {r: 0.43529412, g: 0.6117647, b: 0.76862746, a: 1}
-    ambientEquator: {r: 0.54901963, g: 0.5882353, b: 0.627451, a: 1}
-    ambientGround: {r: 0.20392157, g: 0.23137255, b: 0.25882354, a: 1}
-    ambientIntensity: 0.7
-    fogColor: {r: 0.65882355, g: 0.79607844, b: 0.9019608, a: 1}
-    fogDensity: 0.0025
-    waterShallow: {r: 0.24705882, g: 0.6117647, b: 0.59607846, a: 1}
-    waterDeep: {r: 0.08235294, g: 0.3529412, b: 0.38431373, a: 1}
+    ambientSky: {r: 0.36078432, g: 0.49803922, b: 0.6117647, a: 1}
+    ambientEquator: {r: 0.43137255, g: 0.4509804, b: 0.47058824, a: 1}
+    ambientGround: {r: 0.14901961, g: 0.16862746, b: 0.19215687, a: 1}
+    ambientIntensity: 0.5
+    fogColor: {r: 0.62352943, g: 0.7137255, b: 0.78431374, a: 1}
+    fogDensity: 0.003
+    waterShallow: {r: 0.18039216, g: 0.4862745, b: 0.47843137, a: 1}
+    waterDeep: {r: 0.05882353, g: 0.24313726, b: 0.27450982, a: 1}
     waterFoam: {r: 0.91764706, g: 0.9529412, b: 0.9490196, a: 1}
     waterSpecular: {r: 1, g: 0.9372549, b: 0.8392157, a: 1}
     waterDepthFade: 5
     waterFoamDistance: 0.9
     waveAmplitude: 0.25
     waveSpeed: 0.5
-    waterSpecularIntensity: 1
-    waterReflection: 0.4
-    postExposure: 0.05
-    contrast: 14
-    saturation: 8
+    waterSpecularIntensity: 0.7
+    waterReflection: 0.35
+    postExposure: -0.45
+    contrast: 18
+    saturation: -6
     splitShadows: {r: 0.18039216, g: 0.2901961, b: 0.43137255, a: 1}
     splitHighlights: {r: 1, g: 0.9019608, b: 0.7607843, a: 1}
     splitBalance: 0
-    bloomIntensity: 0.28
-    bloomThreshold: 1.1
-    vignetteIntensity: 0.28
-    filmGrain: 0.1
+    bloomIntensity: 0.1
+    bloomThreshold: 1.3
+    vignetteIntensity: 0.32
+    filmGrain: 0.12
   crestFoam: 0
   foamSoftness: 0.01
   normalStrength: 2
@@ -71,14 +71,14 @@ MonoBehaviour:
   bands: 5
   bandSoftness: 0.5
   lightWrap: 0.198
-  shadowStrength: 0.85
-  ambientStrength: 0.234
+  shadowStrength: 0.9
+  ambientStrength: 0.6
   rimStrength: 0.1
-  rockColor: {r: 0.62, g: 0.6, b: 0.6, a: 1}
-  pineColor: {r: 0.2, g: 0.3, b: 0.26, a: 1}
-  autumnColor: {r: 0.7, g: 0.42, b: 0.2, a: 1}
+  rockColor: {r: 0.46, g: 0.46, b: 0.48, a: 1}
+  pineColor: {r: 0.14, g: 0.24, b: 0.2, a: 1}
+  autumnColor: {r: 0.58, g: 0.36, b: 0.16, a: 1}
   trunkColor: {r: 0.3, g: 0.22, b: 0.17, a: 1}
-  cloudColor: {r: 0.86, g: 0.88, b: 0.92, a: 1}
+  cloudColor: {r: 0.72, g: 0.74, b: 0.78, a: 1}
   cloudShadowStrength: 0.4
   fieldOfView: 62.4
   farClip: 3000
