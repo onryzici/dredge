@@ -1,0 +1,184 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4fc2ea1f1016f454984143b47f533f1b, type: 3}
+  m_Name: DredgeLookSettings
+  m_EditorClassIdentifier: Assembly-CSharp::Dredge.DredgeLookSettings
+  atmosphere:
+    sunElevation: 24
+    sunAzimuth: -70
+    sunColor: {r: 1, g: 0.9019608, b: 0.76862746, a: 1}
+    sunIntensity: 1.4
+    shadowStrength: 0.85
+    shadowTint: {r: 0.24313726, g: 0.2901961, b: 0.43137255, a: 1}
+    skyZenith: {r: 0.18039216, g: 0.49019608, b: 0.7764706, a: 1}
+    skyHorizon: {r: 0.65882355, g: 0.79607844, b: 0.9019608, a: 1}
+    skyGround: {r: 0.65882355, g: 0.79607844, b: 0.9019608, a: 1}
+    horizonPower: 3.2
+    horizonGlow: 0.12
+    sunDiscColor: {r: 1, g: 0.94509804, b: 0.8392157, a: 1}
+    sunDiscSize: 0.003
+    sunDiscSoftness: 0.002
+    sunGlowColor: {r: 1, g: 0.8235294, b: 0.627451, a: 1}
+    sunGlowFalloff: 70
+    skyExposure: 0.75
+    starStrength: 0
+    ambientSky: {r: 0.43529412, g: 0.6117647, b: 0.76862746, a: 1}
+    ambientEquator: {r: 0.54901963, g: 0.5882353, b: 0.627451, a: 1}
+    ambientGround: {r: 0.20392157, g: 0.23137255, b: 0.25882354, a: 1}
+    ambientIntensity: 0.7
+    fogColor: {r: 0.65882355, g: 0.79607844, b: 0.9019608, a: 1}
+    fogDensity: 0.0025
+    waterShallow: {r: 0.24705882, g: 0.6117647, b: 0.59607846, a: 1}
+    waterDeep: {r: 0.08235294, g: 0.3529412, b: 0.38431373, a: 1}
+    waterFoam: {r: 0.91764706, g: 0.9529412, b: 0.9490196, a: 1}
+    waterSpecular: {r: 1, g: 0.9372549, b: 0.8392157, a: 1}
+    waterDepthFade: 5
+    waterFoamDistance: 0.9
+    waveAmplitude: 0.25
+    waveSpeed: 0.5
+    waterSpecularIntensity: 1
+    waterReflection: 0.4
+    postExposure: 0.05
+    contrast: 14
+    saturation: 8
+    splitShadows: {r: 0.18039216, g: 0.2901961, b: 0.43137255, a: 1}
+    splitHighlights: {r: 1, g: 0.9019608, b: 0.7607843, a: 1}
+    splitBalance: 0
+    bloomIntensity: 0.28
+    bloomThreshold: 1.1
+    vignetteIntensity: 0.28
+    filmGrain: 0.1
+  crestFoam: 0
+  foamSoftness: 0.01
+  normalStrength: 2
+  specularPower: 106
+  specularSoftness: 0.06
+  alphaShallow: 0.35
+  waveFadeDistance: 81
+  reflectionBase: 0.15
+  planarStrength: 1
+  planarDistortion: 0.06
+  reflectionTextureScale: 1
+  bands: 5
+  bandSoftness: 0.5
+  lightWrap: 0.198
+  shadowStrength: 0.85
+  ambientStrength: 0.234
+  rimStrength: 0.1
+  rockColor: {r: 0.62, g: 0.6, b: 0.6, a: 1}
+  pineColor: {r: 0.2, g: 0.3, b: 0.26, a: 1}
+  autumnColor: {r: 0.7, g: 0.42, b: 0.2, a: 1}
+  trunkColor: {r: 0.3, g: 0.22, b: 0.17, a: 1}
+  cloudColor: {r: 0.86, g: 0.88, b: 0.92, a: 1}
+  cloudShadowStrength: 0.4
+  fieldOfView: 62.4
+  farClip: 3000
+  clouds: 1
+  cloudCount: 16
+  cloudHeight: {x: 45, y: 110}
+  cloudDistance: {x: 140, y: 420}
+  cloudScale: {x: 1, y: 2.4}
+  cloudWind: {x: 0.9, y: 0, z: 0.35}
+  seaVolume: 0.1
+  engineVolume: 0.119
+  dayLengthSeconds: 480
+  startHour: 9
+  duskAtmosphere:
+    sunElevation: 7
+    sunAzimuth: -110
+    sunColor: {r: 1, g: 0.6039216, b: 0.2901961, a: 1}
+    sunIntensity: 1.2
+    shadowStrength: 0.7
+    shadowTint: {r: 0.22745098, g: 0.24705882, b: 0.41960785, a: 1}
+    skyZenith: {r: 0.14901961, g: 0.21176471, b: 0.36078432, a: 1}
+    skyHorizon: {r: 0.9137255, g: 0.6313726, b: 0.39607844, a: 1}
+    skyGround: {r: 0.76862746, g: 0.54509807, b: 0.43137255, a: 1}
+    horizonPower: 2.8
+    horizonGlow: 0.6
+    sunDiscColor: {r: 1, g: 0.8509804, b: 0.627451, a: 1}
+    sunDiscSize: 0.006
+    sunDiscSoftness: 0.0025
+    sunGlowColor: {r: 1, g: 0.6117647, b: 0.32156864, a: 1}
+    sunGlowFalloff: 14
+    skyExposure: 1
+    starStrength: 0.15
+    ambientSky: {r: 0.3529412, g: 0.42352942, b: 0.57254905, a: 1}
+    ambientEquator: {r: 0.5411765, g: 0.47843137, b: 0.5019608, a: 1}
+    ambientGround: {r: 0.16862746, g: 0.14901961, b: 0.1882353, a: 1}
+    ambientIntensity: 0.65
+    fogColor: {r: 0.8509804, g: 0.63529414, b: 0.46666667, a: 1}
+    fogDensity: 0.0035
+    waterShallow: {r: 0.30588236, g: 0.43137255, b: 0.47843137, a: 1}
+    waterDeep: {r: 0.078431375, g: 0.1254902, b: 0.18039216, a: 1}
+    waterFoam: {r: 0.9529412, g: 0.8627451, b: 0.7764706, a: 1}
+    waterSpecular: {r: 1, g: 0.76862746, b: 0.5372549, a: 1}
+    waterDepthFade: 4
+    waterFoamDistance: 0.5
+    waveAmplitude: 0.22
+    waveSpeed: 0.55
+    waterSpecularIntensity: 2.4
+    waterReflection: 0.45
+    postExposure: 0
+    contrast: 14
+    saturation: 6
+    splitShadows: {r: 0.16862746, g: 0.23137255, b: 0.43137255, a: 1}
+    splitHighlights: {r: 1, g: 0.7882353, b: 0.5411765, a: 1}
+    splitBalance: 0
+    bloomIntensity: 0.3
+    bloomThreshold: 1.05
+    vignetteIntensity: 0.28
+    filmGrain: 0.06
+  nightAtmosphere:
+    sunElevation: 42
+    sunAzimuth: 140
+    sunColor: {r: 0.65882355, g: 0.74509805, b: 0.8627451, a: 1}
+    sunIntensity: 0.75
+    shadowStrength: 0.5
+    shadowTint: {r: 0.09411765, g: 0.14117648, b: 0.22745098, a: 1}
+    skyZenith: {r: 0.039215688, g: 0.078431375, b: 0.14117648, a: 1}
+    skyHorizon: {r: 0.13333334, g: 0.19607843, b: 0.2901961, a: 1}
+    skyGround: {r: 0.101960786, g: 0.14117648, b: 0.20392157, a: 1}
+    horizonPower: 1.8
+    horizonGlow: 0.22
+    sunDiscColor: {r: 0.9098039, g: 0.9411765, b: 1, a: 1}
+    sunDiscSize: 0.01
+    sunDiscSoftness: 0.0025
+    sunGlowColor: {r: 0.43137255, g: 0.5254902, b: 0.68235296, a: 1}
+    sunGlowFalloff: 60
+    skyExposure: 1
+    starStrength: 0.08
+    ambientSky: {r: 0.17254902, g: 0.24313726, b: 0.36862746, a: 1}
+    ambientEquator: {r: 0.13725491, g: 0.18039216, b: 0.2509804, a: 1}
+    ambientGround: {r: 0.0627451, g: 0.08627451, b: 0.12156863, a: 1}
+    ambientIntensity: 1.1
+    fogColor: {r: 0.08627451, g: 0.12941177, b: 0.18431373, a: 1}
+    fogDensity: 0.004
+    waterShallow: {r: 0.11764706, g: 0.22745098, b: 0.28235295, a: 1}
+    waterDeep: {r: 0.019607844, g: 0.039215688, b: 0.07058824, a: 1}
+    waterFoam: {r: 0.5764706, g: 0.65882355, b: 0.72156864, a: 1}
+    waterSpecular: {r: 0.7490196, g: 0.83137256, b: 0.9411765, a: 1}
+    waterDepthFade: 4
+    waterFoamDistance: 0.5
+    waveAmplitude: 0.22
+    waveSpeed: 0.55
+    waterSpecularIntensity: 1.4
+    waterReflection: 0.35
+    postExposure: 0.6
+    contrast: 10
+    saturation: -10
+    splitShadows: {r: 0.08627451, g: 0.13333334, b: 0.22745098, a: 1}
+    splitHighlights: {r: 0.62352943, g: 0.7137255, b: 0.84705883, a: 1}
+    splitBalance: 0
+    bloomIntensity: 0.45
+    bloomThreshold: 0.9
+    vignetteIntensity: 0.34
+    filmGrain: 0.16

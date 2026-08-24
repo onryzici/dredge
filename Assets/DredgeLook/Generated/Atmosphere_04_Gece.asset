@@ -1,0 +1,59 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 22eeae8f6ae3864468f3a5bbd639b87c, type: 3}
+  m_Name: Atmosphere_04_Gece
+  m_EditorClassIdentifier: Assembly-CSharp::DredgeLook.AtmospherePreset
+  values:
+    sunElevation: 42
+    sunAzimuth: 140
+    sunColor: {r: 0.65882355, g: 0.74509805, b: 0.8627451, a: 1}
+    sunIntensity: 0.3
+    shadowStrength: 0.45
+    shadowTint: {r: 0.09411765, g: 0.14117648, b: 0.22745098, a: 1}
+    skyZenith: {r: 0.039215688, g: 0.078431375, b: 0.14117648, a: 1}
+    skyHorizon: {r: 0.14117648, g: 0.20392157, b: 0.29803923, a: 1}
+    skyGround: {r: 0.101960786, g: 0.14117648, b: 0.20392157, a: 1}
+    horizonPower: 1.6
+    horizonGlow: 0.25
+    sunDiscColor: {r: 0.9098039, g: 0.9411765, b: 1, a: 1}
+    sunDiscSize: 0.01
+    sunDiscSoftness: 0.0025
+    sunGlowColor: {r: 0.43137255, g: 0.5254902, b: 0.68235296, a: 1}
+    sunGlowFalloff: 60
+    skyExposure: 1
+    starStrength: 0.9
+    ambientSky: {r: 0.11764706, g: 0.17254902, b: 0.26666668, a: 1}
+    ambientEquator: {r: 0.101960786, g: 0.13333334, b: 0.1882353, a: 1}
+    ambientGround: {r: 0.05490196, g: 0.078431375, b: 0.1254902, a: 1}
+    ambientIntensity: 1
+    fogColor: {r: 0.08627451, g: 0.12941177, b: 0.18431373, a: 1}
+    fogDensity: 0.024
+    waterShallow: {r: 0.13725491, g: 0.2509804, b: 0.29803923, a: 1}
+    waterDeep: {r: 0.023529412, g: 0.047058824, b: 0.078431375, a: 1}
+    waterFoam: {r: 0.5764706, g: 0.65882355, b: 0.72156864, a: 1}
+    waterSpecular: {r: 0.7490196, g: 0.83137256, b: 0.9411765, a: 1}
+    waterDepthFade: 6.5
+    waterFoamDistance: 1.4
+    waveAmplitude: 1.1
+    waveSpeed: 1
+    waterSpecularIntensity: 1.6
+    waterReflection: 0.45
+    postExposure: 0.25
+    contrast: 8
+    saturation: -12
+    splitShadows: {r: 0.08627451, g: 0.13333334, b: 0.22745098, a: 1}
+    splitHighlights: {r: 0.62352943, g: 0.7137255, b: 0.84705883, a: 1}
+    splitBalance: 0
+    bloomIntensity: 0.45
+    bloomThreshold: 0.9
+    vignetteIntensity: 0.34
+    filmGrain: 0.18
